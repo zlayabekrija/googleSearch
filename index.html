@@ -1,6 +1,7 @@
 <!DOCTYPE DOCTYPE html>
 <html>
 <head>
+    <!--google search page for pre-course work-->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Google Search Project</title>
@@ -15,10 +16,10 @@
    <a href="#">Notifications</a>
    <a href="https://accounts.google.com/ServiceLogin">Log In</a></nav>
    <div class="search">
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="googleLogo">
-    <form action="https://www.google.com?q=love" method="GET">
-        <input type="text" placeholder="Look for something" autofocus>
-        <button type="submit" value="Search">Search</button>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" onmouseover="test()" onmouseout="out()" id="logo" alt="googleLogo">
+    <form action="/" name="name" id="form" method="GET">
+        <input type="text" id="seek" placeholder="Look for something" autofocus>
+        <button type="submit" id="word" onclick="look()">Search</button>
         <button type="submit" onclick="random()">I'm feeling lucky</button>
     </form></div>
     <footer>
